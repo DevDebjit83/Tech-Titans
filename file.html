@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Job Opportunity Suggestion</title>
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <h1>CAREER BOT</h1>
+        <form id="jobForm">
+            <label for="class10">Class 10 Marks:</label>
+            <input type="text" id="class10" required>
+
+            <label for="class12">Class 12 Marks:</label>
+            <input type="text" id="class12" required>
+
+            <label for="ug">UG Marks:</label>
+            <input type="text" id="ug" required>
+
+            <label for="pg">PG Marks:</label>
+            <input type="text" id="pg" required>
+
+            <label for="stream">Stream:</label>
+            <input type="text" id="stream" required>
+
+            <button type="button" onclick="suggestJobOpportunities()">Get Job Suggestions</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
