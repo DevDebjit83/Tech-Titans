@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Healthcare For Her</title>
 <style>
-  
+  body{
+    width: 100%;
+  }
   
         header {
             background-color: rgb(245, 207, 138);
@@ -22,7 +24,7 @@
         
 
         main {
-            padding: 20px;
+            padding: 20px; width: 100%;
         }
 
         section {
@@ -66,6 +68,8 @@
   div{
     box-shadow: 1cm;
             border-radius: .5cm;
+            width: 85%;
+            
   }
   body{
     background-color: wheat;
@@ -92,20 +96,60 @@
      
         address{
             text-align: left;
-            max-width: 70%;
+            max-width: 100%;
             height: auto;
             font-style: normal;  
         } 
         center{
           text-align: center;
         }
+        .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .back-button {
+      float: left;
+        .flex-container {
+      display: flex;
+      /* Optional: adjust flex container properties */
+      flex-direction: row; /* or column, row-reverse, column-reverse */
+      justify-content: center; /* align items along the main axis */
+      align-items: center; /* align items along the cross axis */
+      font-size: 30px;
+    }
+    .flex-item {
+      /* Optional: adjust flex item properties */
+      flex: 1; /* flex-grow, flex-shrink, flex-basis */
+      /* Other properties like width, height, margin, etc. */
+    }
+  }
 </style>
 </head>
 <body>
   
-  <img src="bold her.jpg" class="centered-image" width="350px" height="350px">
+ <!--<a href="index.html"> <img src="bold her.jpg" class="centered-image" width="350px" height="350px"></a>-->
 
   <main>
+    <div class="navbar">
+      <a href="index.html" class="back-button">&#8249; Back</a>
+      
+    </div>
+    <div style="padding: 20px;">
+      <!-- Your page content goes here -->
+      
+    </div>
   
 
 <div class="button-container">
@@ -122,11 +166,20 @@
     
   </div>
   <div class="right-buttons">
-    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9805882/"><button ><h1>Strong Foundations: Nurturing Bone Health in Women </h1> <img src="bone.jpg" height="250px"><h2><p>" Bone Health: Osteoporosis prevention and management, especially important for women as they age. " </p></h2><b><br>Click here to know more </b></button></a> 
+    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9805882/"><button ><h1>Strong Foundations: Nurturing Bone Health in Women </h1> <img src="bone.jpg" height="250px" width="350px"><h2><p>" Bone Health: Osteoporosis prevention and management, especially important for women as they age. " </p></h2><b><br>Click here to know more </b></button></a> 
     <br><br><br>
-<a href="https://www.healthline.com/health/polycystic-ovary-disease"> <button><h1> Common facts you don't know about PCOD in Women</h1>  <img src="pcod.jpg" height="250px"><p><h2>"Unlocking the Mysteries of PCOS: Surprising Facts Every Woman Should Know for Better Health."</h2> </p><br><b>Click here to know more</b></button></a> 
+<a href="https://www.healthline.com/health/polycystic-ovary-disease"> <button><h1> Common facts you don't know about PCOD in Women</h1>  <img src="pcod.jpg" height="250px" width="350px"><p><h2>"Unlocking the Mysteries of PCOS: Surprising Facts Every Woman Should Know for Better Health."</h2> </p><br><b>Click here to know more</b></button></a> 
 
   </div>
+  <div class="flex-container">
+    <centre><div class="flex-item"><b>Menstruation myths abound, with some suggesting that it negatively affects bone health in women, but this is largely a misconception.<br> In fact, menstruation is a natural process and does not directly impact bone health. However, it is important for women to maintain overall health, including a balanced diet rich in calcium and vitamin D, which are essential for bone health.
+
+      <br> pregnancy, maintaining good health is crucial for both the mother and the developing baby. Proper prenatal care, including regular check-ups and a healthy lifestyle, can help prevent complications and ensure a healthy pregnancy.
+      
+      <br> (Polycystic Ovary Syndrome) is a common hormonal disorder that affects women of reproductive age. It is characterized by cysts on the ovaries, irregular periods, and hormonal imbalances. PCOD can lead to various complications, including infertility, diabetes, and heart disease. Treatment typically involves lifestyle changes, medication, and sometimes surgery.
+      
+      Overall, understanding these aspects of women's health can help dispel myths, promote awareness, and encourage women to prioritize their health and well-being.</b></div></centre>
+  
 </div>
 
 </main>
